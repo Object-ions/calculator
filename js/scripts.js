@@ -4,32 +4,21 @@ console.log("test")
 let number1 = parseInt(prompt(" to add, subtruct, multiply and divide; Enter a number:"));
 let number2 = parseInt(prompt("Enter another number:"));
 
-// }
-// adding function
-function add(number1, number2) {
-    let twoNum = number1 + number2;
-    console.log("The addition of your numbers equals " + twoNum + ".");
-} 
-
-// subtructing fuction
-function sub(number1, number2) {
-    twoNum = number1 - number2;
-    console.log("The subtraction of your numbers equals " + twoNum + ".");
+function arithmetics(num1, num2) {
+    // create varibales
+    let add, sub, mul, div;
+    //make arthimetics and store in vars
+    add = number1 + number2;
+    sub = number1 - number2;
+    mul = number1 * number2;
+    div = number1 / number2;
+    //output to console
+    console.log("The addition of your numbers equals " + add + "." +
+                 "The subtraction of your numbers equals " + sub + "." +
+                 "The multiply of your numbers equals " + mul + "." +
+                 "The dividis of your numbers equals " + div + ".");
 }
 
-// subtructing fuction
-function multiply(number1, number2) {
-    twoNum = number1 * number2;
-    console.log("The multiply of your numbers equals " + twoNum + ".");
-}
+arithmetics(number1, number2)
 
-// subtructing fuction
-function divide(number1, number2) {
-    twoNum = number1 / number2;
-    console.log("The division of your numbers equals " + twoNum + ".");
-}
-
-add(number1, number2);
-sub(number1, number2);
-multiply(number1, number2);
-divide(number1, number2);
+// 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
